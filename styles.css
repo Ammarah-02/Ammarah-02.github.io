@@ -1,0 +1,88 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+/* Form Styling */
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form textarea {
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #357ab7;
+}
+
+/* Affirmation Section */
+#affirmations button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#affirmations button:hover {
+    background-color: #357ab7;
+}

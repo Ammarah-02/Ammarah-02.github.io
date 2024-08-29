@@ -1,16 +1,58 @@
-<html>
-    <head>
-     
-        <title>
-     
-            Ammarah's page
-     
-        </title>
-    </head>    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Journal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>My Mood Journal</h1>
+        <nav>
+            <a href="#journal">Journal</a>
+            <a href="#mood-tracker">Mood Tracker</a>
+            <a href="#affirmations">Affirmations</a>
+        </nav>
+    </header>
 
+    <!-- Journal Section -->
+    <section id="journal">
+        <h2>Log Your Mood</h2>
+        <form id="mood-form">
+            <label for="mood">Select Your Mood:</label>
+            <select id="mood" name="mood">
+                <option value="happy">😊 Happy</option>
+                <option value="sad">😢 Sad</option>
+                <option value="anxious">😟 Anxious</option>
+                <option value="excited">😃 Excited</option>
+            </select>
 
-       <body>
-         <p>Hi my name is Ammarah</p>
-         <p>This is a new line</p> 
-       </body>
+            <label for="thoughts">Describe Your Day:</label>
+            <textarea id="thoughts" name="thoughts" rows="4"></textarea>
+
+            <button type="submit">Save Mood</button>
+        </form>
+    </section>
+
+    <!-- Mood Tracker Section -->
+    <section id="mood-tracker">
+        <h2>Mood Tracker</h2>
+        <div id="mood-history">
+            <!-- Mood history will be dynamically generated here -->
+        </div>
+    </section>
+
+    <!-- Affirmations Section -->
+    <section id="affirmations">
+        <h2>Daily Affirmation</h2>
+        <p id="affirmation-text">"You are capable of amazing things!"</p>
+        <button id="new-affirmation">Get New Affirmation</button>
+    </section>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
 </html>
