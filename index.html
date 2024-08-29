@@ -2,57 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mood Journal</title>
+    <title>My Personal Blog</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Header Section -->
     <header>
-        <h1>My Mood Journal</h1>
+        <h1>Welcome to My Blog</h1>
         <nav>
-            <a href="#journal">Journal</a>
-            <a href="#mood-tracker">Mood Tracker</a>
-            <a href="#affirmations">Affirmations</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
         </nav>
     </header>
 
-    <!-- Journal Section -->
-    <section id="journal">
-        <h2>Log Your Mood</h2>
-        <form id="mood-form">
-            <label for="mood">Select Your Mood:</label>
-            <select id="mood" name="mood">
-                <option value="happy">😊 Happy</option>
-                <option value="sad">😢 Sad</option>
-                <option value="anxious">😟 Anxious</option>
-                <option value="excited">😃 Excited</option>
-            </select>
+    <!-- Main Content -->
+    <main>
+        <section>
+            <h2>Latest Blog Post</h2>
+            <article>
+                <h3>My First Post</h3>
+                <img src="images/blog1.jpg" alt="Blog Post Image">
+                <p>
+                    Hello and welcome to my personal blog! I’m Ammarah, a Computer Science student on a spiritual quest, with a heart set on building a deeper connection with my Lord and Creator.
+                    This blog is my space to reflect on my spiritual journey — the joys, the struggles, and the beautiful lessons I learn along the way. From exploring my faith to sharing personal experiences and insights, I hope to inspire others to seek their own connection with their Creator.
+                    
+                    I believe that life is a journey of growth, guided by faith, love, and a profound sense of purpose. Whether it’s my daily reflections, favorite verses, or reflecting on Allah's creations, you’ll find it all here.
 
-            <label for="thoughts">Describe Your Day:</label>
-            <textarea id="thoughts" name="thoughts" rows="4"></textarea>
 
-            <button type="submit">Save Mood</button>
-        </form>
-    </section>
+                    I invite you to join me as I walk this path — let’s explore, learn, and draw closer to our Creator together!
 
-    <!-- Mood Tracker Section -->
-    <section id="mood-tracker">
-        <h2>Mood Tracker</h2>
-        <div id="mood-history">
-            <!-- Mood history will be dynamically generated here -->
-        </div>
-    </section>
 
-    <!-- Affirmations Section -->
-    <section id="affirmations">
-        <h2>Daily Affirmation</h2>
-        <p id="affirmation-text">"You are capable of amazing things!"</p>
-        <button id="new-affirmation">Get New Affirmation</button>
-    </section>
+   
+                </p>
+                <p>Date: August 29, 2024</p>
+            </article>
 
-    <!-- JavaScript File -->
-    <script src="script.js"></script>
+            <article>
+                <h3>Exploring My Interests</h3>
+                <img src="images/blog2.jpg" alt="Exploring Interests">
+                <p>
+                    I love exploring new tech, diving into my religion, and finding calm through meditation. Each of these interests adds something special to my life, keeping me curious and centered.
+
+                </p>
+                <p>Date: August 25, 2024</p>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 My Personal Blog</p>
+    </footer>
 </body>
 </html>
